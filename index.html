@@ -15,7 +15,7 @@
 
         <p>Recetas fáciles para todos los días</p>
 
-        <nav>
+        <nav aria-label="inicio">
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#recetas">Recetas</a></li>
@@ -178,6 +178,7 @@
                             <td>35 minutos</td>
                             <td>50 minutos</td>
                         </tr>
+                    
                         <tr>
                             <td>45 minutos</td>
                             <td>10 minutos</td>
@@ -282,10 +283,10 @@
                 <input type="email" name="email">
             <br>
                 <label for="receta">Tu receta favorita</label>
-                <input id="receta" name="receta" type="text"></input>
+                <input id="receta" name="receta" type="text" value="Tu receta favorita"></input>
             <br>
                 <label>
-                    <input type="checkbox" name="newsletter">Quiero recibir nuevas recetas</input>
+                    <input type="checkbox" name="newsletter" value="Quiero recibit nuevas recetas">Quiero recibir nuevas recetas</input>
                 </label>
             <br>
                 <button type="submit">Enviar</button>
@@ -323,7 +324,7 @@
 
         <p>&copy; 2026 El Rincón de las Recetas</p>
 
-        <nav>
+        <nav aria-label="footer">
             <ul>
                 <li><a href="aviso-legal.html">Aviso legal</a></li>
                 <li><a href="privacidad.html">Política de privacidad</a></li>
